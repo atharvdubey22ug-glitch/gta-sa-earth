@@ -13,6 +13,7 @@ Press **Missions** and pick one to watch it play out in the world, start to fini
 ![The flood channel chase in Just Business](screenshots/mission-flood-channel.jpg)
 
 - **Just Business** (Big Smoke): the drive downtown, the shootout outside the Atrium, then the full BF-400 chase through downtown, the flood channel, the Packer ramp and the old storm drain
+- **Wrong Side of the Tracks** (Big Smoke): Unity Station, then the Sanchez chase alongside the freight train while Smoke picks the Vagos off its roof, the on-coming train, the high road and the ride back to Grove Street
 - Camera modes: **Cinematic** (an auto-director that knows where the action is going), **Chase cam**, **Helicopter** and **Free camera**, with the mission's cutscene cameras on or off
 - Play / pause, scrub, chapter markers, 0.5×–2× speed and subtitles
 - Interior scenes are skipped with a title card for now
@@ -22,7 +23,8 @@ How it's done: the viewer runs the mission's actual script from your `main.scm` 
 | | |
 |---|---|
 | ![Shootout](screenshots/mission-shootout.jpg) | ![Downtown chase](screenshots/mission-downtown.jpg) |
-| ![Split up](screenshots/mission-ending.jpg) | |
+| ![Split up](screenshots/mission-ending.jpg) | ![Chasing the train](screenshots/mission-train-chase.jpg) |
+| ![Riding home](screenshots/mission-ride-home.jpg) | |
 
 ## How it works
 
@@ -42,6 +44,7 @@ SA Earth doesn't host any game content. When you open the page, you point it at 
 - Pedestrians with real skinned models and the game's walk animation
 - 3D-positioned game audio: engines, horns, footsteps, pedestrian speech, wind and rain (**M** to mute)
 - Story missions replayed live from the game's own scripts (see above)
+- Car windows render as tinted glass instead of white, and head/tail lights get proper colours
 
 | | |
 |---|---|
